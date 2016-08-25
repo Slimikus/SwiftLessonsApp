@@ -154,7 +154,14 @@
                                                 <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="96P-0i-pAc">
                                                     <rect key="frame" x="0.0" y="0.0" width="320" height="199"/>
                                                     <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="UiE-wg-Qyw" id="DO4-PW-zVC"/>
+                                                    </connections>
                                                 </webView>
+                                                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="vO9-hJ-8vS">
+                                                    <rect key="frame" x="142" y="81" width="37" height="37"/>
+                                                    <color key="color" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </activityIndicatorView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -168,10 +175,16 @@
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uj-6I-u83">
                                                     <rect key="frame" x="63" y="12" width="30" height="30"/>
                                                     <state key="normal" title="Like"/>
+                                                    <connections>
+                                                        <action selector="pushButtonLike:" destination="UiE-wg-Qyw" eventType="touchUpInside" id="bE0-rc-opZ"/>
+                                                    </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MhX-zB-1Ra">
                                                     <rect key="frame" x="226" y="12" width="45" height="30"/>
                                                     <state key="normal" title="Dislike"/>
+                                                    <connections>
+                                                        <action selector="pushButtonDislike:" destination="UiE-wg-Qyw" eventType="touchUpInside" id="oA8-ou-AN7"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -199,6 +212,13 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Урок 1" id="dVW-gn-zXH"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="vO9-hJ-8vS" id="PIj-7k-4bc"/>
+                        <outlet property="buttonDislike" destination="MhX-zB-1Ra" id="RsD-kE-Lpp"/>
+                        <outlet property="buttonLike" destination="3uj-6I-u83" id="bDd-YS-sga"/>
+                        <outlet property="labelName" destination="voj-o3-dJm" id="7in-n1-Jxw"/>
+                        <outlet property="webView" destination="96P-0i-pAc" id="FNk-PL-ULh"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wOj-8X-61n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -18,8 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         loadLessons()
         
-        print(lessons)
-        
         return true
     }
 

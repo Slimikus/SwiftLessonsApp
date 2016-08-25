@@ -11,86 +11,52 @@ import UIKit
 class LessonController: UITableViewController {
     
     var lesson: Lesson?
+    
+    @IBOutlet weak var labelName: UILabel!
+    @IBOutlet weak var webView: UIWebView!
+    @IBOutlet weak var buttonLike: UIButton!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    @IBAction func pushButtonLike(sender: AnyObject) {
+    }
+    @IBOutlet weak var buttonDislike: UIButton!
+    @IBAction func pushButtonDislike(sender: AnyObject) {
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    
         
-        print(lesson?.name)
-        
+        labelName.text = lesson?.description
+        navigationItem.title = lesson?.name
+        webView.alpha = 0
+        webView.loadRequest(NSURLRequest(URL: (lesson?.videoURL)!))
+        webView.delegate = self
      
     }
+}
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+extension LessonController: UIWebViewDelegate {
+    func webView(webView: UIWebView, shouldStartLoadWithRequest request: NSURLRequest, navigationType: UIWebViewNavigationType) -> Bool {
+        
+       // print(request.URL?.absoluteString)
+        if request.URL == lesson?.videoURL {
+            return true
+        }
+        if request.URL?.absoluteString == "about:blank" {
+            return true
+        }
+        webView.reload()
+        
+        return false
     }
-
-    // MARK: - Table view data source
-
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+    func webViewDidStartLoad(webView: UIWebView) {
+        activityIndicator.startAnimating()
     }
-
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+    func webViewDidFinishLoad(webView: UIWebView) {
+        activityIndicator.stopAnimating()
+        webView.alpha = 1
     }
-
-    /*
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
-
-        // Configure the cell...
-
-        return cell
+    func webView(webView: UIWebView, didFailLoadWithError error: NSError?) {
+        print("Error when loading url \(lesson?.videoURL?.absoluteString)")
+        print(error?.localizedDescription)
     }
-    */
-
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
-            // Delete the row from the data source
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-        } else if editingStyle == .Insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
