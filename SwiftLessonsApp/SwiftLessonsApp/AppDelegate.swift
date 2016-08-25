@@ -18,12 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         loadLessons()
         
-        print("Количество уроков \(lessons.count)")
-        print(lessons[0].id)
-        print(lessons[0].name)
-        print(lessons[0].description)
-        print(lessons[0].video)
-
+        print(lessons)
+        
         return true
     }
 
