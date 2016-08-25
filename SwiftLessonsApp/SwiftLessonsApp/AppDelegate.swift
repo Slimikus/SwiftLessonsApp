@@ -15,7 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        loadLessons()
+        
+        print("Количество уроков \(lessons.count)")
+        print("Количество уроков \(lessons[0])")
+
         return true
     }
 

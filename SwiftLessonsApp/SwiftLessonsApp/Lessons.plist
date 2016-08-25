@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<integer>1</integer>
+		<key>name</key>
+		<string>Часть 1</string>
+		<key>description</key>
+		<string>Введение</string>
+		<key>url</key>
+		<string>TCnUiF0osFE</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>Часть 2</string>
+		<key>description</key>
+		<string>Типы данных, типы коллекций</string>
+		<key>url</key>
+		<string>KEVcEJwMFLo</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>3</integer>
+		<key>name</key>
+		<string>Часть 3</string>
+		<key>description</key>
+		<string>Опциональные типы</string>
+		<key>url</key>
+		<string>q2GDTb4KJRQ</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>4</integer>
+		<key>name</key>
+		<string>Часть 4</string>
+		<key>description</key>
+		<string>Цыклы</string>
+		<key>url</key>
+		<string>ahBwAuhFllo</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>5</integer>
+		<key>name</key>
+		<string>Часть 5</string>
+		<key>description</key>
+		<string>Условный оператор if</string>
+		<key>url</key>
+		<string>Z-wAdqfSq2k</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>6</integer>
+		<key>name</key>
+		<string>Часть 6</string>
+		<key>description</key>
+		<string>Условный оператор switch case</string>
+		<key>url</key>
+		<string>zzTlaoPiVbY</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>7</integer>
+		<key>name</key>
+		<string>Часть 7</string>
+		<key>description</key>
+		<string>Функции</string>
+		<key>url</key>
+		<string>EEYBTrlbBcU</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>8</integer>
+		<key>name</key>
+		<string>Часть 8</string>
+		<key>description</key>
+		<string>Блоки</string>
+		<key>url</key>
+		<string>IdCtUbS9w-M</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>9</integer>
+		<key>name</key>
+		<string>Часть 9</string>
+		<key>description</key>
+		<string>Структуры</string>
+		<key>url</key>
+		<string>3gskTdtMC0I</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>10</integer>
+		<key>name</key>
+		<string>Часть 10</string>
+		<key>description</key>
+		<string>Классы: конструкторы классов</string>
+		<key>url</key>
+		<string>kZLzNxIXwhc</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>11</integer>
+		<key>name</key>
+		<string>Часть 11</string>
+		<key>description</key>
+		<string>Классы: наследование классов</string>
+		<key>url</key>
+		<string>RKyknoJcU4E</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>12</integer>
+		<key>name</key>
+		<string>Часть 12</string>
+		<key>description</key>
+		<string>Вычисляемые свойства классов</string>
+		<key>url</key>
+		<string>LjqGSiusiSY</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>13</integer>
+		<key>name</key>
+		<string>Часть 13</string>
+		<key>description</key>
+		<string>Наблюдатели свойств классов</string>
+		<key>url</key>
+		<string>53G98Pseye0</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>14</integer>
+		<key>name</key>
+		<string>Часть 14</string>
+		<key>description</key>
+		<string>Протоколы</string>
+		<key>url</key>
+		<string>PMsEOQQixsA</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>15</integer>
+		<key>name</key>
+		<string>Часть 15</string>
+		<key>description</key>
+		<string>Делегирование</string>
+		<key>url</key>
+		<string>kqP-Qal-LWk</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>16</integer>
+		<key>name</key>
+		<string>Часть 16</string>
+		<key>description</key>
+		<string>Обработка ошибок</string>
+		<key>url</key>
+		<string>SZ7MEgbIs40</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>17</integer>
+		<key>name</key>
+		<string>Часть 17</string>
+		<key>description</key>
+		<string>Приведение типов</string>
+		<key>url</key>
+		<string>bD1J5BL_rYE</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>18</integer>
+		<key>name</key>
+		<string>Часть 18</string>
+		<key>description</key>
+		<string>Статические переменные и статические методы класса</string>
+		<key>url</key>
+		<string>X8CPv8ZbqFU</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>19</integer>
+		<key>name</key>
+		<string>Часть 19</string>
+		<key>description</key>
+		<string>Примеры наследования классов</string>
+		<key>url</key>
+		<string>0K8px3JfvLU</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>20</integer>
+		<key>name</key>
+		<string>Часть 20</string>
+		<key>description</key>
+		<string>Начинаем программировать приложение</string>
+		<key>url</key>
+		<string>VE3w4dHLzG4</string>
+	</dict>
+</array>
+</plist>
