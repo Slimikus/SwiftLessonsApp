@@ -28,7 +28,7 @@
         <scene sceneID="jSM-yl-Swl">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Gjh-f8-wdZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Уроки" image="folder32.png" id="9qF-QM-RvQ"/>
+                    <tabBarItem key="tabBarItem" title="Уроки" image="book_empty.png" id="9qF-QM-RvQ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="xTG-U4-lbK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -74,7 +74,7 @@
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OLL-ap-TSz">
                                             <rect key="frame" x="243" y="37" width="21" height="21"/>
                                         </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swift.png" translatesAutoresizingMaskIntoConstraints="NO" id="i49-K7-PcN">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i49-K7-PcN">
                                             <rect key="frame" x="16" y="8" width="50" height="50"/>
                                         </imageView>
                                     </subviews>
@@ -198,7 +198,7 @@
         <scene sceneID="esR-Fl-a5u">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QYa-A2-2Qg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="О приложении" image="questionbook32.png" id="YgN-2A-ogt"/>
+                    <tabBarItem key="tabBarItem" title="О приложении" image="information.png" id="YgN-2A-ogt"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="d6r-zK-RO3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -237,7 +237,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appstore.png" highlightedImage="appstore.png" translatesAutoresizingMaskIntoConstraints="NO" id="dUG-UJ-cWj">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appstore.png" translatesAutoresizingMaskIntoConstraints="NO" id="dUG-UJ-cWj">
                                                     <rect key="frame" x="15" y="3" width="35" height="35"/>
                                                 </imageView>
                                             </subviews>
@@ -279,7 +279,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="favourites.png" highlightedImage="favourites.png" translatesAutoresizingMaskIntoConstraints="NO" id="wKY-D2-blB">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star.png" translatesAutoresizingMaskIntoConstraints="NO" id="wKY-D2-blB">
                                                     <rect key="frame" x="277" y="3" width="35" height="35"/>
                                                 </imageView>
                                             </subviews>
@@ -302,7 +302,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boxupload32.png" highlightedImage="boxupload32.png" translatesAutoresizingMaskIntoConstraints="NO" id="djC-EH-Hfa">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Share.png" translatesAutoresizingMaskIntoConstraints="NO" id="djC-EH-Hfa">
                                                     <rect key="frame" x="15" y="3" width="35" height="35"/>
                                                 </imageView>
                                             </subviews>
@@ -331,7 +331,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="starbucks.png" translatesAutoresizingMaskIntoConstraints="NO" id="KX9-sj-EOf">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Coffee.png" translatesAutoresizingMaskIntoConstraints="NO" id="KX9-sj-EOf">
                                                     <rect key="frame" x="15" y="3" width="35" height="35"/>
                                                 </imageView>
                                             </subviews>
@@ -356,7 +356,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="starbucks.png" translatesAutoresizingMaskIntoConstraints="NO" id="CiF-oZ-R9A">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rock.png" translatesAutoresizingMaskIntoConstraints="NO" id="CiF-oZ-R9A">
                                                     <rect key="frame" x="15" y="4" width="35" height="35"/>
                                                 </imageView>
                                             </subviews>
@@ -378,14 +378,14 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Coffee.png" width="512" height="512"/>
+        <image name="Rock.png" width="128" height="128"/>
+        <image name="Share.png" width="512" height="512"/>
         <image name="appstore.png" width="512" height="512"/>
-        <image name="boxupload32.png" width="32" height="32"/>
+        <image name="book_empty.png" width="32" height="32"/>
         <image name="email.png" width="512" height="512"/>
-        <image name="favourites.png" width="512" height="512"/>
-        <image name="folder32.png" width="32" height="32"/>
+        <image name="information.png" width="32" height="32"/>
         <image name="like.png" width="32" height="32"/>
-        <image name="questionbook32.png" width="32" height="32"/>
-        <image name="starbucks.png" width="512" height="512"/>
-        <image name="swift.png" width="50" height="50"/>
+        <image name="star.png" width="512" height="512"/>
     </resources>
 </document>

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		844A86631D70173600EC7ED8 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 844A86621D70173600EC7ED8 /* like.png */; };
 		844A86651D7020E900EC7ED8 /* ShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A86641D7020E900EC7ED8 /* ShareManager.swift */; };
-		844A86671D704D7800EC7ED8 /* 1 in Resources */ = {isa = PBXBuildFile; fileRef = 844A86661D704D7700EC7ED8 /* 1 */; };
 		84E9642C1D6EBAB400C81AC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9642B1D6EBAB400C81AC2 /* AppDelegate.swift */; };
 		84E964311D6EBAB400C81AC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E9642F1D6EBAB400C81AC2 /* Main.storyboard */; };
 		84E964331D6EBAB400C81AC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E964321D6EBAB400C81AC2 /* Assets.xcassets */; };
@@ -19,16 +18,31 @@
 		84E964461D6EC89900C81AC2 /* LessonsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E964451D6EC89900C81AC2 /* LessonsListController.swift */; };
 		84E964481D6EC8CC00C81AC2 /* LessonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E964471D6EC8CC00C81AC2 /* LessonController.swift */; };
 		84E9644A1D6ECD7E00C81AC2 /* LessonsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E964491D6ECD7E00C81AC2 /* LessonsListCell.swift */; };
-		84E9644C1D6ED02100C81AC2 /* swift.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E9644B1D6ED02000C81AC2 /* swift.png */; };
 		84F340C41D706E3500B648EF /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F340C31D706E3400B648EF /* AboutController.swift */; };
 		84F340C71D706F7500B648EF /* folder32.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F340C51D706F7500B648EF /* folder32.png */; };
 		84F340C81D706F7500B648EF /* questionbook32.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F340C61D706F7500B648EF /* questionbook32.png */; };
+		84F340D51D70770900B648EF /* airplay.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F340C91D70770900B648EF /* airplay.png */; };
+		84F340D61D70770900B648EF /* appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F340CA1D70770900B648EF /* appstore.png */; };
+		84F340D71D70770900B648EF /* books.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F340CB1D70770900B648EF /* books.png */; };
+		84F340D81D70770900B648EF /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F340CC1D70770900B648EF /* email.png */; };
+		84F340D91D70770900B648EF /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F340CD1D70770900B648EF /* fb.png */; };
+		84F340DA1D70770900B648EF /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F340CE1D70770900B648EF /* instagram.png */; };
+		84F340DB1D70770900B648EF /* eject.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F340CF1D70770900B648EF /* eject.png */; };
+		84F340DC1D70770900B648EF /* Rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F340D01D70770900B648EF /* Rock.png */; };
+		84F340DE1D70770900B648EF /* starbucks.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F340D21D70770900B648EF /* starbucks.png */; };
+		84F340DF1D70770900B648EF /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F340D31D70770900B648EF /* twitter.png */; };
+		84F340E01D70770900B648EF /* whatsapp.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F340D41D70770900B648EF /* whatsapp.png */; };
+		84F340E21D7078FC00B648EF /* Share.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F340E11D7078FC00B648EF /* Share.png */; };
+		84F340E41D70798700B648EF /* Coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F340E31D70798700B648EF /* Coffee.png */; };
+		84F340E61D7079DD00B648EF /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F340E51D7079DD00B648EF /* star.png */; };
+		84F340E91D707AFD00B648EF /* book_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F340E71D707AFD00B648EF /* book_empty.png */; };
+		84F340EA1D707AFD00B648EF /* information.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F340E81D707AFD00B648EF /* information.png */; };
+		84F340EC1D707CE200B648EF /* swift.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F340EB1D707CE200B648EF /* swift.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		844A86621D70173600EC7ED8 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = like.png; path = images/like.png; sourceTree = "<group>"; };
 		844A86641D7020E900EC7ED8 /* ShareManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareManager.swift; sourceTree = "<group>"; };
-		844A86661D704D7700EC7ED8 /* 1 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = 1; path = images/1; sourceTree = "<group>"; };
 		84E964281D6EBAB400C81AC2 /* SwiftLessonsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLessonsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E9642B1D6EBAB400C81AC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84E964301D6EBAB400C81AC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,10 +54,26 @@
 		84E964451D6EC89900C81AC2 /* LessonsListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonsListController.swift; sourceTree = "<group>"; };
 		84E964471D6EC8CC00C81AC2 /* LessonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonController.swift; sourceTree = "<group>"; };
 		84E964491D6ECD7E00C81AC2 /* LessonsListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonsListCell.swift; sourceTree = "<group>"; };
-		84E9644B1D6ED02000C81AC2 /* swift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swift.png; path = images/swift.png; sourceTree = "<group>"; };
 		84F340C31D706E3400B648EF /* AboutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = "<group>"; };
 		84F340C51D706F7500B648EF /* folder32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = folder32.png; path = images/folder32.png; sourceTree = "<group>"; };
 		84F340C61D706F7500B648EF /* questionbook32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = questionbook32.png; path = images/questionbook32.png; sourceTree = "<group>"; };
+		84F340C91D70770900B648EF /* airplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airplay.png; sourceTree = "<group>"; };
+		84F340CA1D70770900B648EF /* appstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appstore.png; sourceTree = "<group>"; };
+		84F340CB1D70770900B648EF /* books.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = books.png; sourceTree = "<group>"; };
+		84F340CC1D70770900B648EF /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		84F340CD1D70770900B648EF /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
+		84F340CE1D70770900B648EF /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram.png; sourceTree = "<group>"; };
+		84F340CF1D70770900B648EF /* eject.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eject.png; sourceTree = "<group>"; };
+		84F340D01D70770900B648EF /* Rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rock.png; sourceTree = "<group>"; };
+		84F340D21D70770900B648EF /* starbucks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starbucks.png; sourceTree = "<group>"; };
+		84F340D31D70770900B648EF /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		84F340D41D70770900B648EF /* whatsapp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whatsapp.png; sourceTree = "<group>"; };
+		84F340E11D7078FC00B648EF /* Share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Share.png; sourceTree = "<group>"; };
+		84F340E31D70798700B648EF /* Coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Coffee.png; sourceTree = "<group>"; };
+		84F340E51D7079DD00B648EF /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		84F340E71D707AFD00B648EF /* book_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book_empty.png; sourceTree = "<group>"; };
+		84F340E81D707AFD00B648EF /* information.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = information.png; sourceTree = "<group>"; };
+		84F340EB1D707CE200B648EF /* swift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swift.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,11 +149,26 @@
 		84E964401D6EBBC900C81AC2 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				84F340EB1D707CE200B648EF /* swift.png */,
+				84F340E71D707AFD00B648EF /* book_empty.png */,
+				84F340E81D707AFD00B648EF /* information.png */,
+				84F340E51D7079DD00B648EF /* star.png */,
+				84F340E31D70798700B648EF /* Coffee.png */,
+				84F340E11D7078FC00B648EF /* Share.png */,
+				84F340C91D70770900B648EF /* airplay.png */,
+				84F340CA1D70770900B648EF /* appstore.png */,
+				84F340CB1D70770900B648EF /* books.png */,
+				84F340CC1D70770900B648EF /* email.png */,
+				84F340CD1D70770900B648EF /* fb.png */,
+				84F340CE1D70770900B648EF /* instagram.png */,
+				84F340CF1D70770900B648EF /* eject.png */,
+				84F340D01D70770900B648EF /* Rock.png */,
+				84F340D21D70770900B648EF /* starbucks.png */,
+				84F340D31D70770900B648EF /* twitter.png */,
+				84F340D41D70770900B648EF /* whatsapp.png */,
 				84F340C51D706F7500B648EF /* folder32.png */,
 				84F340C61D706F7500B648EF /* questionbook32.png */,
-				844A86661D704D7700EC7ED8 /* 1 */,
 				844A86621D70173600EC7ED8 /* like.png */,
-				84E9644B1D6ED02000C81AC2 /* swift.png */,
 				84E964321D6EBAB400C81AC2 /* Assets.xcassets */,
 			);
 			name = Assets;
@@ -188,15 +233,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F340DC1D70770900B648EF /* Rock.png in Resources */,
+				84F340D91D70770900B648EF /* fb.png in Resources */,
+				84F340EC1D707CE200B648EF /* swift.png in Resources */,
+				84F340E61D7079DD00B648EF /* star.png in Resources */,
+				84F340DE1D70770900B648EF /* starbucks.png in Resources */,
+				84F340E91D707AFD00B648EF /* book_empty.png in Resources */,
+				84F340D51D70770900B648EF /* airplay.png in Resources */,
 				84F340C71D706F7500B648EF /* folder32.png in Resources */,
+				84F340E41D70798700B648EF /* Coffee.png in Resources */,
 				84F340C81D706F7500B648EF /* questionbook32.png in Resources */,
 				84E964361D6EBAB400C81AC2 /* LaunchScreen.storyboard in Resources */,
-				844A86671D704D7800EC7ED8 /* 1 in Resources */,
 				84E964331D6EBAB400C81AC2 /* Assets.xcassets in Resources */,
+				84F340DA1D70770900B648EF /* instagram.png in Resources */,
+				84F340DB1D70770900B648EF /* eject.png in Resources */,
+				84F340D61D70770900B648EF /* appstore.png in Resources */,
+				84F340E21D7078FC00B648EF /* Share.png in Resources */,
 				844A86631D70173600EC7ED8 /* like.png in Resources */,
-				84E9644C1D6ED02100C81AC2 /* swift.png in Resources */,
+				84F340DF1D70770900B648EF /* twitter.png in Resources */,
+				84F340D81D70770900B648EF /* email.png in Resources */,
 				84E964421D6EBDAE00C81AC2 /* Lessons.plist in Resources */,
+				84F340EA1D707AFD00B648EF /* information.png in Resources */,
 				84E964311D6EBAB400C81AC2 /* Main.storyboard in Resources */,
+				84F340D71D70770900B648EF /* books.png in Resources */,
+				84F340E01D70770900B648EF /* whatsapp.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
