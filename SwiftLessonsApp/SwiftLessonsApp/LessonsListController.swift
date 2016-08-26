@@ -14,7 +14,11 @@ class LessonsListController: UITableViewController {
         super.viewDidLoad()
 
     }
-
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        tableView.reloadData()
+    }
 
 
     // MARK: - Table view data source

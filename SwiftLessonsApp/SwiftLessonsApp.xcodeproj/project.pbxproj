@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		844A86631D70173600EC7ED8 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 844A86621D70173600EC7ED8 /* like.png */; };
+		844A86651D7020E900EC7ED8 /* ShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A86641D7020E900EC7ED8 /* ShareManager.swift */; };
 		84E9642C1D6EBAB400C81AC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9642B1D6EBAB400C81AC2 /* AppDelegate.swift */; };
 		84E964311D6EBAB400C81AC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E9642F1D6EBAB400C81AC2 /* Main.storyboard */; };
 		84E964331D6EBAB400C81AC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E964321D6EBAB400C81AC2 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		844A86621D70173600EC7ED8 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = like.png; path = images/like.png; sourceTree = "<group>"; };
+		844A86641D7020E900EC7ED8 /* ShareManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareManager.swift; sourceTree = "<group>"; };
 		84E964281D6EBAB400C81AC2 /* SwiftLessonsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLessonsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E9642B1D6EBAB400C81AC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84E964301D6EBAB400C81AC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		84E9643F1D6EBBB600C81AC2 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				844A86641D7020E900EC7ED8 /* ShareManager.swift */,
 			);
 			name = Managers;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				84E964461D6EC89900C81AC2 /* LessonsListController.swift in Sources */,
 				84E964481D6EC8CC00C81AC2 /* LessonController.swift in Sources */,
 				84E9644A1D6ECD7E00C81AC2 /* LessonsListCell.swift in Sources */,
+				844A86651D7020E900EC7ED8 /* ShareManager.swift in Sources */,
 				84E9642C1D6EBAB400C81AC2 /* AppDelegate.swift in Sources */,
 				84E964441D6EBE1400C81AC2 /* Lesson.swift in Sources */,
 			);

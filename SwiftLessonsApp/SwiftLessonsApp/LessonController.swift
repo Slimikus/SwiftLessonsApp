@@ -10,6 +10,7 @@ import UIKit
 
 class LessonController: UITableViewController {
     
+    var shareManager = ShareManager()
     var lesson: Lesson?
     
     @IBOutlet weak var labelName: UILabel!
@@ -43,6 +44,12 @@ class LessonController: UITableViewController {
         webView.delegate = self
         setButtonLike()
     }
+    
+    @IBAction func sendEmailAction(sender: AnyObject) {
+        shareManager.sendMail(["slimikus@icloud.com"], subject: lesson!.description, text: "Напишите ваш вопрос по уроку тут:/n/n/n", vc: self)
+    }
+    
+    
 }
 
 extension LessonController: UIWebViewDelegate {
