@@ -59,9 +59,6 @@
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="66"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swift.png" translatesAutoresizingMaskIntoConstraints="NO" id="i49-K7-PcN">
-                                            <rect key="frame" x="16" y="8" width="50" height="50"/>
-                                        </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Название урока" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aga-DT-1V7">
                                             <rect key="frame" x="74" y="8" width="190" height="32"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -76,6 +73,9 @@
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OLL-ap-TSz">
                                             <rect key="frame" x="243" y="37" width="21" height="21"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swift.png" translatesAutoresizingMaskIntoConstraints="NO" id="i49-K7-PcN">
+                                            <rect key="frame" x="16" y="8" width="50" height="50"/>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
@@ -156,19 +156,19 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="53"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T3U-Qh-Q6F">
+                                                    <rect key="frame" x="85" y="10" width="220" height="32"/>
+                                                    <state key="normal" title="Отправить Email автору"/>
+                                                    <connections>
+                                                        <action selector="sendEmailAction:" destination="UiE-wg-Qyw" eventType="touchUpInside" id="ACj-Wb-HD3"/>
+                                                    </connections>
+                                                </button>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uj-6I-u83">
                                                     <rect key="frame" x="20" y="10" width="32" height="32"/>
                                                     <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                     <state key="normal" title="Like" image="like.png"/>
                                                     <connections>
                                                         <action selector="pushButtonLike:" destination="UiE-wg-Qyw" eventType="touchUpInside" id="bE0-rc-opZ"/>
-                                                    </connections>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T3U-Qh-Q6F">
-                                                    <rect key="frame" x="85" y="10" width="220" height="32"/>
-                                                    <state key="normal" title="Отправить Email автору"/>
-                                                    <connections>
-                                                        <action selector="sendEmailAction:" destination="UiE-wg-Qyw" eventType="touchUpInside" id="ACj-Wb-HD3"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -237,7 +237,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appstore.png" translatesAutoresizingMaskIntoConstraints="NO" id="dUG-UJ-cWj">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appstore.png" highlightedImage="appstore.png" translatesAutoresizingMaskIntoConstraints="NO" id="dUG-UJ-cWj">
                                                     <rect key="frame" x="15" y="3" width="35" height="35"/>
                                                 </imageView>
                                             </subviews>
@@ -260,7 +260,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="email.png" translatesAutoresizingMaskIntoConstraints="NO" id="6AN-FY-ENI">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="email.png" highlightedImage="email.png" translatesAutoresizingMaskIntoConstraints="NO" id="6AN-FY-ENI">
                                                     <rect key="frame" x="277" y="3" width="35" height="35"/>
                                                 </imageView>
                                             </subviews>
@@ -279,7 +279,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="favourites.png" translatesAutoresizingMaskIntoConstraints="NO" id="wKY-D2-blB">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="favourites.png" highlightedImage="favourites.png" translatesAutoresizingMaskIntoConstraints="NO" id="wKY-D2-blB">
                                                     <rect key="frame" x="277" y="3" width="35" height="35"/>
                                                 </imageView>
                                             </subviews>
@@ -302,7 +302,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boxupload32.png" translatesAutoresizingMaskIntoConstraints="NO" id="djC-EH-Hfa">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boxupload32.png" highlightedImage="boxupload32.png" translatesAutoresizingMaskIntoConstraints="NO" id="djC-EH-Hfa">
                                                     <rect key="frame" x="15" y="3" width="35" height="35"/>
                                                 </imageView>
                                             </subviews>
