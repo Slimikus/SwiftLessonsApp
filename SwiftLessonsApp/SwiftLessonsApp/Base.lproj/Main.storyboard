@@ -172,33 +172,17 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="53"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T3U-Qh-Q6F">
+                                                    <rect key="frame" x="85" y="10" width="220" height="32"/>
+                                                    <state key="normal" title="Отправить Email автору"/>
+                                                </button>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uj-6I-u83">
-                                                    <rect key="frame" x="63" y="12" width="30" height="30"/>
-                                                    <state key="normal" title="Like"/>
+                                                    <rect key="frame" x="20" y="10" width="32" height="32"/>
+                                                    <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <state key="normal" title="Like" image="like.png"/>
                                                     <connections>
                                                         <action selector="pushButtonLike:" destination="UiE-wg-Qyw" eventType="touchUpInside" id="bE0-rc-opZ"/>
                                                     </connections>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MhX-zB-1Ra">
-                                                    <rect key="frame" x="226" y="12" width="45" height="30"/>
-                                                    <state key="normal" title="Dislike"/>
-                                                    <connections>
-                                                        <action selector="pushButtonDislike:" destination="UiE-wg-Qyw" eventType="touchUpInside" id="oA8-ou-AN7"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="55" id="Ula-Ck-xI8">
-                                        <rect key="frame" x="0.0" y="371" width="320" height="55"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ula-Ck-xI8" id="ylR-bh-lQU">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="54"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T3U-Qh-Q6F">
-                                                    <rect key="frame" x="8" y="12" width="304" height="30"/>
-                                                    <state key="normal" title="Отправить Email автору"/>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -214,7 +198,6 @@
                     <navigationItem key="navigationItem" title="Урок 1" id="dVW-gn-zXH"/>
                     <connections>
                         <outlet property="activityIndicator" destination="vO9-hJ-8vS" id="PIj-7k-4bc"/>
-                        <outlet property="buttonDislike" destination="MhX-zB-1Ra" id="RsD-kE-Lpp"/>
                         <outlet property="buttonLike" destination="3uj-6I-u83" id="bDd-YS-sga"/>
                         <outlet property="labelName" destination="voj-o3-dJm" id="7in-n1-Jxw"/>
                         <outlet property="webView" destination="96P-0i-pAc" id="FNk-PL-ULh"/>
@@ -244,4 +227,7 @@
             <point key="canvasLocation" x="250" y="437"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="like.png" width="32" height="32"/>
+    </resources>
 </document>

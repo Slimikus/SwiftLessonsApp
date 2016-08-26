@@ -17,11 +17,22 @@ class LessonController: UITableViewController {
     @IBOutlet weak var buttonLike: UIButton!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBAction func pushButtonLike(sender: AnyObject) {
+        if let lesson = lesson {
+            lesson.like = !lesson.like
+        }
+        setButtonLike()
     }
-    @IBOutlet weak var buttonDislike: UIButton!
-    @IBAction func pushButtonDislike(sender: AnyObject) {
+    
+    func setButtonLike() {
+        if let lesson = lesson {
+            if lesson.like {
+                buttonLike.tintColor = UIColor.redColor()
+            } else {
+                buttonLike.tintColor = UIColor.lightGrayColor()
+            }
+        }
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -30,7 +41,7 @@ class LessonController: UITableViewController {
         webView.alpha = 0
         webView.loadRequest(NSURLRequest(URL: (lesson?.videoURL)!))
         webView.delegate = self
-     
+        setButtonLike()
     }
 }
 

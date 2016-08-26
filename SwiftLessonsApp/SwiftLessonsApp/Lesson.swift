@@ -33,6 +33,16 @@ class Lesson {
         return NSURL(string: "https://www.youtube.com/embed/"+video)
     }
     
+    var like: Bool {
+        set {
+            NSUserDefaults.standardUserDefaults().setBool(newValue, forKey: String(id))
+            NSUserDefaults.standardUserDefaults().synchronize()
+        }
+        get {
+            return NSUserDefaults.standardUserDefaults().boolForKey(String(id))
+        }
+    }
+    
     init(dictionary: NSDictionary) {
         self.id = dictionary.objectForKey("id") as! Int
         self.name = dictionary.objectForKey("name") as! String
